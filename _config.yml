@@ -69,6 +69,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git 
-  repo: https://github.com/alexpixel/hexoblog.git
+  repo: git@github.com:alexpixel/hexoblog.git
   branch: gh-pages
   message: welcome1
