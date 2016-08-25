@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Hexo-Blog
 subtitle:
 description:
-author: John Doe
+author: Alexpixel
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://yoursite.com/child
+root: /child/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -68,4 +68,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git 
+  repo: git@github.com:alexpixel/hexoblog.git
+  branch: gh-pages
+  message: welcome1
