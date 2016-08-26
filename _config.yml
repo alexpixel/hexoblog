@@ -71,4 +71,4 @@ deploy:
   type: git 
   repo: git@github.com:alexpixel/hexoblog.git
   branch: gh-pages
-  message: welcome1
+  message: welcome2
